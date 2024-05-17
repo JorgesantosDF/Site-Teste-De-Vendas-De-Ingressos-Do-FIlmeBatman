@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none; 
+ }
+ 
+
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    
+
+}
+    
+   
+ nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+li:hover{
+    color: red
+}
+#logo{
+    width: 150px;
+    height: auto; 
+}
+
+
+
+
+
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+
+}
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 17px;
+}
+.card:hover{
+    transform: scale(1.05);
+    color: red;
+}
+.banner-1{
+    background-image: url('https://pipocasclub.com.br/wp-content/uploads/2020/09/thebatman1-e1599145036606.jpg'); 
+ }
+ 
+ .banner-2{
+     background-image: url('https://i.pinimg.com/736x/0a/a6/61/0aa66140c3d0bde86a8de619f1bf11da.jpg'); 
+  }
+ 
+  .banner-3{
+     background-image: url('https://www.usmagazine.com/wp-content/uploads/2020/04/Jeffrey-Wright-25-Things-You-Dont-Know-About-Me.jpg?quality=86&strip=all'); 
+  }
+
+
+  footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+ }
+
+ span{
+    color: white;
+ }
